@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <!-- <script src="https://luke-chang.github.io/js-spatial-navigation/spatial_navigation.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        // Initialize
+        SpatialNavigation.init();
+
+        // Define navigable elements (anchors and elements with "focusable" class).
+        SpatialNavigation.add({
+          selector: "a, .focusable",
+        });
+        SpatialNavigation.add({
+          selector: ".a1, .a2",
+        });
+
+        // Make the *currently existing* navigable elements focusable.
+        SpatialNavigation.makeFocusable();
+
+        // Focus the first navigable element.
+        SpatialNavigation.focus();
+      });
+
+      function onButtonClick(){
+        console.log('Button clicked');
+        SpatialNavigation.remove("section-1" );
+      }
+    </script> -->
+    <style>
+      /* Add style to the focused elements */
+      :focus {
+        outline: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <a href="#">Link 1</a>  -->
+    <!-- <a href="#">Link 2</a>
+    <div class="focusable">Div 1</div>
+    <div class="focusable">Div 2</div>
+
+    <div class="a1">Div 1</div>
+    <div class="a1">Div 2</div>
+    <div class="a2">Div 1</div>
+    <div class="a2">Div 2</div> -->
+    <!-- <script src="newIntro.js"></script>-->
+  
+   
+    <button id="resolveButton">Click to Resolve Promise</button>
+    <button id="resolveButton2">Click to Reject Promise</button>
+    <script src="dsa.js"></script> 
+ 
+  </body>
+</html>
